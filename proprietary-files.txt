@@ -647,5 +647,11 @@ etc/camera/selfie/7_selfie.dat
 etc/camera/selfie/8_selfie.dat
 etc/camera/selfie/9_selfie.dat
 
+# Dolby Vision
+-vendor/app/DolbyVisionService/DolbyVisionService.apk
+vendor/etc/dolby_vision_lgeg6_RevB_v008.cfg:vendor/etc/dolby_vision.cfg
+vendor/lib/libdovi.so
+vendor/lib64/libdovi.so
+
 # Postprocessing
 etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml
