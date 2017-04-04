@@ -653,5 +653,17 @@ vendor/etc/dolby_vision_lgeg6_RevB_v008.cfg:vendor/etc/dolby_vision.cfg
 vendor/lib/libdovi.so
 vendor/lib64/libdovi.so
 
+# Fingerprint
+bin/fingerprintd
+bin/fpc_early_loader
+lib/hw/fingerprint.msm8996.so
+lib/lib_fpc_tac_shared.so
+lib/libfpfactory.so
+lib/libfpfactory_jni.so
+lib64/hw/fingerprint.msm8996.so
+lib64/lib_fpc_tac_shared.so
+lib64/libfpfactory.so
+lib64/libfpfactory_jni.so
+
 # Postprocessing
 etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml
