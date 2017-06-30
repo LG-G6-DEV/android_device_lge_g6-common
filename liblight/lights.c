@@ -1,5 +1,7 @@
 /*
- * Copyright 2015 The CyanogenMod Project
+ * Copyright (C) 2008 The Android Open Source Project
+ * Copyright (C) 2014 The  Linux Foundation. All rights reserved.
+ * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,11 +44,26 @@ static struct light_state_t g_notification;
 static struct light_state_t g_battery;
 static struct light_state_t g_attention;
 
+char const*const EMOTIONAL_BLINK_FILE
+         = "/sys/class/lg_rgb_led/use_patterns/blink_patterns";
+
 char const*const LCD_FILE
         = "/sys/class/leds/lcd-backlight/brightness";
 
-char const*const EMOTIONAL_BLINK_FILE
-        = "/sys/class/lg_rgb_led/use_patterns/blink_patterns";
+char const*const LCD_EX_FILE
+        = "/sys/class/leds/lcd-backlight-ex/brightness";
+
+char const*const LCD_MODE_FILE
+        = "/sys/class/graphics/fb0/cur_panel_mode";
+
+char const*const BUTTON_FILE
+        = "/sys/class/leds/button-backlight/brightness";
+
+char const*const RED_BLINK_FILE
+        = "/sys/class/leds/red/blink";
+
+char const*const GREEN_BLINK_FILE
+        = "/sys/class/leds/green/blink";
 
 char const*const EMOTIONAL_ONOFF_FILE
         = "/sys/class/lg_rgb_led/use_patterns/onoff_patterns";
@@ -60,6 +77,35 @@ init_globals(void)
 {
     // init the mutex
     pthread_mutex_init(&g_lock, NULL);
+}
+
+static int
+read_int(char const* path)
+{
+    int fd;
+    static int already_warned = 0;
+
+    fd = open(path, O_RDONLY);
+    if (fd >= 0) {
+        char buffer[3];
+        char intBuffer[3];
+        int bytes = 3;
+        int amt = read(fd, buffer, bytes);
+        int number;
+        close(fd);
+
+        memcpy(intBuffer, buffer, bytes);
+        intBuffer[3] = '\0';
+
+        number = atoi(intBuffer);
+        return number;
+    } else {
+        if (already_warned == 0) {
+            ALOGE("read_int failed to open %s\n", path);
+            already_warned = 1;
+        }
+        return -errno;
+    }
 }
 
 static int
@@ -128,7 +174,14 @@ set_light_backlight(struct light_device_t* dev,
     int err = 0;
     int brightness = rgb_to_brightness(state);
     pthread_mutex_lock(&g_lock);
-    err = write_int(LCD_FILE, brightness);
+    int panel_mode = read_int(LCD_MODE_FILE);
+    if (panel_mode == 2) {
+        /* Set the secondary backlight in U2 mode */
+        err = write_int(LCD_EX_FILE, brightness);
+    } else {
+        /* Set the primary backlight in U3 or offline mode */
+        err = write_int(LCD_FILE, brightness);
+    }
     pthread_mutex_unlock(&g_lock);
     return err;
 }
