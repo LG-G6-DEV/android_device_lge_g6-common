@@ -32,7 +32,9 @@ lib/libmorpho_image_stab31.so
 lib/libmorpho_superzoom.so
 lib/libmpbase.so
 lib/libqomx_core.so
+vendor/lib/libCmcPdaf.so
 vendor/lib/libflash_pmic.so
+vendor/lib/libiris_lc898123f40.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
