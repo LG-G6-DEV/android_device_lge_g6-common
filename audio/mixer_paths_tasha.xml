@@ -2782,8 +2782,8 @@
 
     <path name="voice-tty-full-headset-mic">
         <path name="adc2" />
-        <ctl name="ADC2 Volume" value="20" />
-        <ctl name="DEC0 Volume" value="84" />
+        <ctl name="ADC2 Volume" value="10" />
+        <ctl name="DEC0 Volume" value="64" />
     </path>
 
     <path name="voice-tty-hco-headset-mic">
