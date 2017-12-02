@@ -2550,8 +2550,8 @@
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="ADC MUX8" value="DMIC" />
         <ctl name="DMIC MUX8" value="DMIC0" />
-        <ctl name="DEC7 Volume" value="84" />
-        <ctl name="DEC8 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="120" />
+        <ctl name="DEC8 Volume" value="120" />
     </path>
 
     <path name="camcorder-stereo-dmic-reverse">
@@ -2564,8 +2564,8 @@
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="ADC MUX8" value="DMIC" />
         <ctl name="DMIC MUX8" value="DMIC2" />
-        <ctl name="DEC7 Volume" value="84" />
-        <ctl name="DEC8 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="120" />
+        <ctl name="DEC8 Volume" value="120" />
     </path>
 
     <path name="hdmi-tx">
@@ -2811,7 +2811,7 @@
     <path name="voice-tty-full-headset-mic">
         <path name="adc2" />
         <ctl name="ADC2 Volume" value="10" />
-        <ctl name="DEC0 Volume" value="64" />
+        <ctl name="DEC0 Volume" value="120" />
     </path>
 
     <path name="voice-tty-hco-headset-mic">
