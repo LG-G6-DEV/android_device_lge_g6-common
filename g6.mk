@@ -19,10 +19,6 @@ $(call inherit-product-if-exists, vendor/lge/g6-common/g6-common-vendor.mk)
 
 $(call inherit-product, device/lge/msm8996-common/msm8996.mk)
 
-# Permissions
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 #DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
