@@ -3,4 +3,4 @@
 ro.product.first_api_level=24
 
 # Graphics
-persist.sys.sf.color_saturation=1.1
+#persist.sys.sf.color_saturation=1.1
