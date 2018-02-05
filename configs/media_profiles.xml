@@ -342,7 +342,7 @@
 
     </CamcorderProfiles>
 	
-	<CamcorderProfiles cameraId="2">
+    <CamcorderProfiles cameraId="2">
 
         <EncoderProfile quality="qvga" fileFormat="3gp" duration="60">
             <Video codec="m4v"
