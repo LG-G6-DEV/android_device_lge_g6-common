@@ -2174,7 +2174,7 @@
     <path name="handset-mic">
     	<ctl name="DMIC Delay" value="ON" />
         <path name="dmic1" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="110" />
     </path>
 
     <path name="handset-mic-db">
@@ -2205,9 +2205,9 @@
         <ctl name="SLIM TX7 MUX" value="DEC7" />
         <ctl name="ADC MUX7" value="DMIC" />
         <ctl name="DMIC MUX7" value="DMIC4" />
-        <ctl name="DEC5 Volume" value="84" />
-        <ctl name="DEC6 Volume" value="84" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC5 Volume" value="100" />
+        <ctl name="DEC6 Volume" value="100" />
+        <ctl name="DEC7 Volume" value="100" />
     </path>
 
     <path name="anc-handset">
@@ -2234,8 +2234,8 @@
         <ctl name="RX INT2_2 MUX" value="RX3" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX1 Mix Digital Volume" value="76" />
-        <ctl name="RX2 Mix Digital Volume" value="76" />
+        <ctl name="RX1 Mix Digital Volume" value="84" />
+        <ctl name="RX2 Mix Digital Volume" value="84" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
     </path>
@@ -2277,8 +2277,8 @@
 
     <path name="headset-mic">
         <path name="adc2" />
-        <ctl name="ADC2 Volume" value="12" />
-        <ctl name="DEC0 Volume" value="84" />
+        <ctl name="ADC2 Volume" value="14" />
+        <ctl name="DEC0 Volume" value="99" />
     </path>
 
     <path name="headset-mic-liquid">
@@ -2334,7 +2334,7 @@
     <path name="voice-headset-mic">
         <path name="headset-mic" />
         <ctl name="ADC2 Volume" value="12" />
-        <ctl name="DEC0 Volume" value="84" />
+        <ctl name="DEC0 Volume" value="99" />
     </path>
 
     <path name="speaker-and-headphones">
@@ -2349,8 +2349,8 @@
         <ctl name="SpkrLeft BOOST Switch" value="1" />
         <ctl name="SpkrLeft VISENSE Switch" value="1" />
         <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-        <ctl name="RX1 Mix Digital Volume" value="68" />
-        <ctl name="RX2 Mix Digital Volume" value="68" />
+        <ctl name="RX1 Mix Digital Volume" value="76" />
+        <ctl name="RX2 Mix Digital Volume" value="76" />
         <ctl name="RX7 Digital Volume" value="76" />
     </path>
 
@@ -2550,8 +2550,8 @@
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="ADC MUX8" value="DMIC" />
         <ctl name="DMIC MUX8" value="DMIC0" />
-        <ctl name="DEC7 Volume" value="84" />
-        <ctl name="DEC8 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="99" />
+        <ctl name="DEC8 Volume" value="99" />
     </path>
 
     <path name="camcorder-stereo-dmic-reverse">
@@ -2564,8 +2564,8 @@
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="ADC MUX8" value="DMIC" />
         <ctl name="DMIC MUX8" value="DMIC2" />
-        <ctl name="DEC7 Volume" value="84" />
-        <ctl name="DEC8 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="99" />
+        <ctl name="DEC8 Volume" value="99" />
     </path>
 
     <path name="hdmi-tx">
