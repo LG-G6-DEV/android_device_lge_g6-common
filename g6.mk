@@ -21,11 +21,9 @@ $(call inherit-product, device/lge/msm8996-common/msm8996.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2880
-TARGET_SCREEN_WIDTH := 1440
+TARGET_BOOT_ANIMATION_RES := 1440
 
 # Audio
 PRODUCT_COPY_FILES += \
