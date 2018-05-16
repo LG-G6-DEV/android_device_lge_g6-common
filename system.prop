@@ -1,3 +1,5 @@
-
 # Graphics
 #persist.sys.sf.color_saturation=1.1
+
+# Wide cam for all
+vendor.camera.aux.packagelist=all 
