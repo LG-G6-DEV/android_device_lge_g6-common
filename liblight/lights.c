@@ -172,18 +172,22 @@ set_light_backlight(struct light_device_t* dev,
         struct light_state_t const* state)
 {
     int err = 0;
+    int err2 = 0; 
     int brightness = rgb_to_brightness(state);
     pthread_mutex_lock(&g_lock);
     int panel_mode = read_int(LCD_MODE_FILE);
     if (panel_mode == 2) {
         /* Set the secondary backlight in U2 mode */
         err = write_int(LCD_EX_FILE, brightness);
+        err2 = write_int(LCD_FILE, 0); 
     } else {
         /* Set the primary backlight in U3 or offline mode */
         err = write_int(LCD_FILE, brightness);
+        err2 = write_int(LCD_EX_FILE, 0); 
     }
     pthread_mutex_unlock(&g_lock);
     return err;
+    return err2;
 }
 
 static int
