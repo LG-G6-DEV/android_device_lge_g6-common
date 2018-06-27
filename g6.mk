@@ -40,3 +40,10 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_lucye.conf:system/etc/sensors/sensor_def_common.conf
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.h870_sys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.lights=marlin_sys
