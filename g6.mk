@@ -46,4 +46,4 @@ PRODUCT_PACKAGES += \
     lights.h870_sys
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.lights=marlin_sys
+    ro.hardware.lights=h870_sys
