@@ -29,6 +29,10 @@ TARGET_BOOT_ANIMATION_RES := 1440
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
+# AR
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/android.hardware.camera.ar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.ar.xml
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service
