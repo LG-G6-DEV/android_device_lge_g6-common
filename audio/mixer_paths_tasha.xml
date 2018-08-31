@@ -3909,7 +3909,7 @@
 
     <path name="voip-speaker-mic">
         <path name="speaker-mic" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
 <!-- depending on dual mic -->
