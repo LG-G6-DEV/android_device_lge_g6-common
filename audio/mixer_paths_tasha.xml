@@ -88,7 +88,7 @@
     <ctl name="COMP2 Switch" value="1" />
     <ctl name="COMP7 Switch" value="1" />
     <ctl name="COMP8 Switch" value="1" />
-    <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
+    <ctl name="RX HPH Mode" value="CLS_H_LP" />
     <ctl name="SLIMBUS_3_RX Port Mixer MI2S_TX" value="0" />
     <ctl name="HDMI_RX Port Mixer MI2S_TX" value="0" />
     <ctl name="SLIMBUS_0_RX Port Mixer SLIM_0_TX" value="0" />
@@ -369,7 +369,6 @@
     <ctl name="SLIM_0_RX_Voice Mixer CSVoice" value="0" />
     <ctl name="SLIM_6_RX_Voice Mixer CSVoice" value="0" />
     <ctl name="Voice_Tx Mixer SLIM_0_TX_Voice" value="0" />
-    <ctl name="QUAT_MI2S_RX_Voice Mixer CSVoice" value="0" />
     <!-- Voice HDMI -->
     <ctl name="HDMI_RX_Voice Mixer CSVoice" value="0" />
     <!-- Voice BTSCO -->
@@ -385,7 +384,6 @@
     <ctl name="SLIM_0_RX_Voice Mixer Voice2" value="0" />
     <ctl name="SLIM_6_RX_Voice Mixer Voice2" value="0" />
     <ctl name="Voice2_Tx Mixer SLIM_0_TX_Voice2" value="0" />
-    <ctl name="QUAT_MI2S_RX_Voice Mixer CSVoice2" value="0" />
     <!-- Voice2 HDMI -->
     <ctl name="HDMI_RX_Voice Mixer Voice2" value="0" />
     <!-- Voice2 BTSCO -->
@@ -2112,7 +2110,7 @@
 
     <path name="speaker-mic">
         <path name="dmic3" />
-        <ctl name="DEC7 Volume" value="111" />
+        <ctl name="DEC7 Volume" value="84" />
     </path>
 
     <path name="speaker-mic-liquid">
@@ -2167,7 +2165,7 @@
     <path name="handset-mic">
     	<ctl name="DMIC Delay" value="ON" />
         <path name="dmic1" />
-        <ctl name="DEC7 Volume" value="111" />
+        <ctl name="DEC7 Volume" value="84" />
     </path>
 
     <path name="handset-mic-db">
@@ -2198,9 +2196,9 @@
         <ctl name="SLIM TX7 MUX" value="DEC7" />
         <ctl name="ADC MUX7" value="DMIC" />
         <ctl name="DMIC MUX7" value="DMIC4" />
-        <ctl name="DEC5 Volume" value="100" />
-        <ctl name="DEC6 Volume" value="100" />
-        <ctl name="DEC7 Volume" value="100" />
+        <ctl name="DEC5 Volume" value="84" />
+        <ctl name="DEC6 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="84" />
     </path>
 
     <path name="anc-handset">
@@ -2227,8 +2225,8 @@
         <ctl name="RX INT2_2 MUX" value="RX3" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX1 Mix Digital Volume" value="84" />
-        <ctl name="RX2 Mix Digital Volume" value="84" />
+        <ctl name="RX1 Mix Digital Volume" value="76" />
+        <ctl name="RX2 Mix Digital Volume" value="76" />
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
     </path>
@@ -2270,8 +2268,8 @@
 
     <path name="headset-mic">
         <path name="adc2" />
-        <ctl name="ADC2 Volume" value="14" />
-        <ctl name="DEC0 Volume" value="99" />
+        <ctl name="ADC2 Volume" value="12" />
+        <ctl name="DEC0 Volume" value="84" />
     </path>
 
     <path name="headset-mic-liquid">
@@ -2302,7 +2300,7 @@
 
     <path name="voice-speaker-mic">
         <path name="speaker-mic" />
-        <ctl name="DEC7 Volume" value="111" />
+        <ctl name="DEC7 Volume" value="84" />
     </path>
 
     <path name="voice-speaker-vbat">
@@ -2314,8 +2312,8 @@
         <ctl name="COMP1 Switch" value="1" />
         <ctl name="COMP2 Switch" value="1" />
         <ctl name="RX HPH Mode" value="CLS_H_LP" />
-        <ctl name="RX1 Mix Digital Volume" value="85" />
-        <ctl name="RX2 Mix Digital Volume" value="85" />
+        <ctl name="RX1 Mix Digital Volume" value="74" />
+        <ctl name="RX2 Mix Digital Volume" value="74" />
         <ctl name="HPHL Volume" value="17" />
         <ctl name="HPHR Volume" value="17" />
     </path>
@@ -2327,7 +2325,7 @@
     <path name="voice-headset-mic">
         <path name="headset-mic" />
         <ctl name="ADC2 Volume" value="12" />
-        <ctl name="DEC0 Volume" value="99" />
+        <ctl name="DEC0 Volume" value="84" />
     </path>
 
     <path name="speaker-and-headphones">
@@ -2342,8 +2340,8 @@
         <ctl name="SpkrLeft BOOST Switch" value="1" />
         <ctl name="SpkrLeft VISENSE Switch" value="1" />
         <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-        <ctl name="RX1 Mix Digital Volume" value="76" />
-        <ctl name="RX2 Mix Digital Volume" value="76" />
+        <ctl name="RX1 Mix Digital Volume" value="68" />
+        <ctl name="RX2 Mix Digital Volume" value="68" />
         <ctl name="RX7 Digital Volume" value="76" />
     </path>
 
@@ -3257,8 +3255,8 @@
         <ctl name="COMP1 Switch" value="1" />
         <ctl name="COMP2 Switch" value="1" />
         <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
-        <ctl name="RX1 Mix Digital Volume" value="85" />
-        <ctl name="RX2 Mix Digital Volume" value="85" />
+        <ctl name="RX1 Mix Digital Volume" value="74" />
+        <ctl name="RX2 Mix Digital Volume" value="74" />
         <ctl name="HPHL Volume" value="17" />
         <ctl name="HPHR Volume" value="17" />
     </path>
@@ -3268,8 +3266,8 @@
         <ctl name="COMP1 Switch" value="1" />
         <ctl name="COMP2 Switch" value="1" />
         <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
-        <ctl name="RX1 Mix Digital Volume" value="85" />
-        <ctl name="RX2 Mix Digital Volume" value="85" />
+        <ctl name="RX1 Mix Digital Volume" value="74" />
+        <ctl name="RX2 Mix Digital Volume" value="74" />
         <ctl name="HPHL Volume" value="17" />
         <ctl name="HPHR Volume" value="17" />
     </path>
@@ -3911,7 +3909,7 @@
 
     <path name="voip-speaker-mic">
         <path name="speaker-mic" />
-        <ctl name="DEC7 Volume" value="111" />
+        <ctl name="DEC7 Volume" value="84" />
     </path>
 
 <!-- depending on dual mic -->
