@@ -631,6 +631,44 @@ vendor/lib/libchromatix_s5k3m3_preview.so
 vendor/lib/libchromatix_s5k3m3_snapshot.so
 vendor/lib/libchromatix_s5k3m3_zsl_preview_ad5816g.so
 vendor/lib/libchromatix_s5k3m3_zsl_video_ad5816g.so
+vendor/lib/libchromatix_hi553_cowell_cpp_face_unlock.so
+vendor/lib/libchromatix_hi553_cowell_face_unlock.so
+vendor/lib/libchromatix_hi553_cowell_face_unlock_preview.so
+vendor/lib/libchromatix_hi553_lgit_cpp_face_unlock.so
+vendor/lib/libchromatix_hi553_lgit_face_unlock.so
+vendor/lib/libchromatix_hi553_lgit_face_unlock_preview.so
+vendor/lib/libchromatix_imx258_imtech_binning_4k_3a.so
+vendor/lib/libchromatix_imx258_imtech_binning_video_3a.so
+vendor/lib/libchromatix_imx258_imtech_binning_zsl_3a.so
+vendor/lib/libchromatix_imx258_imtech_cpp_preview_binning.so
+vendor/lib/libchromatix_imx258_imtech_cpp_snapshot_binning.so
+vendor/lib/libchromatix_imx258_imtech_cpp_video_binning.so
+vendor/lib/libchromatix_imx258_imtech_snapshot_binning.so
+vendor/lib/libchromatix_imx258_imtech_video_binning.so
+vendor/lib/libchromatix_imx258_lgit_binning_4k_3a.so
+vendor/lib/libchromatix_imx258_lgit_binning_video_3a.so
+vendor/lib/libchromatix_imx258_lgit_binning_zsl_3a.so
+vendor/lib/libchromatix_imx258_lgit_cpp_preview_binning.so
+vendor/lib/libchromatix_imx258_lgit_cpp_snapshot_binning.so
+vendor/lib/libchromatix_imx258_lgit_cpp_video_binning.so
+vendor/lib/libchromatix_imx258_lgit_snapshot_binning.so
+vendor/lib/libchromatix_imx258_lgit_video_binning.so
+vendor/lib/libchromatix_imx258_mono_imtech_binning_4k_3a.so
+vendor/lib/libchromatix_imx258_mono_imtech_binning_video_3a.so
+vendor/lib/libchromatix_imx258_mono_imtech_binning_zsl_3a.so
+vendor/lib/libchromatix_imx258_mono_imtech_cpp_preview_binning.so
+vendor/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.so
+vendor/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so
+vendor/lib/libchromatix_imx258_mono_imtech_snapshot_binning.so
+vendor/lib/libchromatix_imx258_mono_imtech_video_binning.so
+vendor/lib/libchromatix_imx258_mono_lgit_binning_4k_3a.so
+vendor/lib/libchromatix_imx258_mono_lgit_binning_video_3a.so
+vendor/lib/libchromatix_imx258_mono_lgit_binning_zsl_3a.so
+vendor/lib/libchromatix_imx258_mono_lgit_cpp_preview_binning.so
+vendor/lib/libchromatix_imx258_mono_lgit_cpp_snapshot_binning.so
+vendor/lib/libchromatix_imx258_mono_lgit_cpp_video_binning.so
+vendor/lib/libchromatix_imx258_mono_lgit_snapshot_binning.so
+vendor/lib/libchromatix_imx258_mono_lgit_video_binning.so
 
 # Camera configs
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
@@ -657,7 +695,7 @@ etc/camera/selfie/9_selfie.dat:vendor/etc/camera/selfie/9_selfie.dat
 
 # Dolby Vision
 -vendor/app/DolbyVisionService/DolbyVisionService.apk
-vendor/etc/dolby_vision_lgeg6_RevB_v008.cfg:vendor/etc/dolby_vision.cfg
+vendor/etc/dolby_vision_lgeg6_RevB_v011.cfg:vendor/etc/dolby_vision.cfg
 vendor/lib/libdovi.so
 vendor/lib64/libdovi.so
 
