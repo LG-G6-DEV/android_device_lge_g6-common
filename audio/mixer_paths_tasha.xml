@@ -2834,6 +2834,10 @@
 		<ctl name="DEC7 Volume" value="88" />
     </path>
 
+    <path name="unprocessed-stereo-mic">
+        <path name="voice-rec-dmic-ef" />
+    </path>
+
     <path name="unprocessed-dual-mic">
         <path name="handset-mic" />
     </path>
