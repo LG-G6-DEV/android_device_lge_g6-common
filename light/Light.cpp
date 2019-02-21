@@ -43,6 +43,7 @@ static void set(std::string path, int value) {
 static void handleBacklight(const LightState& state) {
     uint32_t brightness = state.color & 0xFF;
     set("/sys/class/leds/lcd-backlight/brightness", brightness);
+    set("/sys/class/leds/lcd-backlight-ex/brightness", brightness);
 }
 
 static std::map<Type, std::function<void(const LightState&)>> lights = {
