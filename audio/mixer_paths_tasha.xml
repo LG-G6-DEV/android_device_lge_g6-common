@@ -2565,7 +2565,6 @@
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="ADC MUX8" value="DMIC" />
         <ctl name="DMIC MUX8" value="DMIC2" />
-        <ctl name="DEC7 Volume" value="99" />
         <ctl name="DEC7 Volume" value="120" />
         <ctl name="DEC8 Volume" value="120" />
     </path>
