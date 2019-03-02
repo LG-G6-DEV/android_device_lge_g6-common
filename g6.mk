@@ -60,7 +60,8 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    lights.h870_sys
+    android.hardware.light@2.0-service.lucye \
+    android.hardware.light@2.0-impl
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.lights=h870_sys
