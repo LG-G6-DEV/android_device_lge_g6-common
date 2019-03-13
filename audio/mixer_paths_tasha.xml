@@ -2535,6 +2535,8 @@
 
     <path name="voice-rec-mic">
         <path name="handset-mic" />
+       <ctl name="DEC7 Volume" value="84" />
+       <ctl name="DEC8 Volume" value="84" />
     </path>
 
     <path name="camcorder-mic">
