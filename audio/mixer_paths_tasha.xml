@@ -2167,7 +2167,7 @@
     <path name="handset-mic">
     	<ctl name="DMIC Delay" value="ON" />
         <path name="dmic1" />
-        <ctl name="DEC7 Volume" value="100" />
+        <ctl name="DEC7 Volume" value="110" />
     </path>
 
     <path name="handset-mic-db">
@@ -2844,8 +2844,8 @@
 
     <path name="unprocessed-stereo-mic">
         <path name="voice-rec-dmic-ef" />
-		<ctl name="DEC7 Volume" value="100" />
-        <ctl name="DEC8 Volume" value="100" />
+	<ctl name="DEC7 Volume" value="110" />
+        <ctl name="DEC8 Volume" value="110" />
     </path>
 
     <path name="unprocessed-dual-mic">
