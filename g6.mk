@@ -43,10 +43,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hdr_tm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_tm_config.xml
 
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lucye
-
 # External Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml
@@ -62,4 +58,6 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service \
-    android.hardware.light@2.0-impl
+    android.hardware.light@2.0-impl \
+    vendor.lge.hardware.light@1.0-service \
+    lights.msm8996
