@@ -37,10 +37,10 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24595398656
 TARGET_SYSTEM_PROP += $(DEVICE_COMMON_PATH)/system.prop
 
 # SELinux policies
-BOARD_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy
 
 # Treble
-PRODUCT_SHIPPING_API_LEVEL := 24
+#PRODUCT_SHIPPING_API_LEVEL := 24
 
 # inherit from the proprietary version
 -include vendor/lge/g6-common/BoardConfigVendor.mk
