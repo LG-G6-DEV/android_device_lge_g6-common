@@ -4,3 +4,5 @@ persist.sys.sf.color_saturation=1.1
 # HDR
 ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
 
+# 4K Video fix
+media.settings.xml=/vendor/etc/media_profiles_V1_0.xml
