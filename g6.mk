@@ -53,7 +53,12 @@ PRODUCT_COPY_FILES += \
 
 # Media
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
+    $(LOCAL_PATH)/configs/system/media_profiles.xml:system/etc/media_profiles.xml \
+    $(LOCAL_PATH)/configs/system/media_profiles_V1_0.dtd:system/etc/media_profiles_V1_0.dtd \
+    $(LOCAL_PATH)/configs/vendor/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
+    $(LOCAL_PATH)/configs/vendor/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
+    $(LOCAL_PATH)/configs/vendor/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
+
 
 # Sensors
 PRODUCT_COPY_FILES += \
