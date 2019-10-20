@@ -733,13 +733,6 @@ vendor/etc/dolby_vision_lgeg6_RevB_v011.cfg:vendor/etc/dolby_vision.cfg
 vendor/lib/libdovi.so
 vendor/lib64/libdovi.so
 
-# Fingerprint
--vendor/lib/hw/fingerprint.msm8996.so
--vendor/lib64/hw/fingerprint.msm8996.so
-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
-
 # OIS firmware
 vendor/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin
 vendor/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin
