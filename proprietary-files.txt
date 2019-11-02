@@ -733,6 +733,67 @@ vendor/etc/dolby_vision_lgeg6_RevB_v011.cfg:vendor/etc/dolby_vision.cfg
 vendor/lib/libdovi.so
 vendor/lib64/libdovi.so
 
+# Fingerprint - QTI
+vendor/lib64/hw/fingerprint.msm8996.so
+framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+lib/vendor.qti.hardware.fingerprint@1.0.so
+lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+
+# Fingerprint - LGE
+vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service
+vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/init/hw/init.lge.fingerprints.rc
+framework/vendor.lge.hardware.biometrics.fingerprint-V2.1-java.jar
+framework/vendor.lge.hardware.biometrics.fingerprint-V2.2-java.jar
+lib/vendor.lge.hardware.biometrics.fingerprint@2.1.so
+lib/vendor.lge.hardware.biometrics.fingerprint@2.2.so
+lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so
+lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so
+
+# LGE - Bootproperty
+vendor/etc/init/init.lge.bootproperty_trigger.rc
+lib/vendor.lge.hardware.bootproperty@1.0.so
+lib64/vendor.lge.hardware.bootproperty@1.0.so
+vendor/lib/hw/vendor.lge.hardware.bootproperty@1.0-impl.so
+vendor/lib64/hw/vendor.lge.hardware.bootproperty@1.0-impl.so
+vendor/bin/hw/vendor.lge.hardware.bootproperty@1.0-service
+vendor/etc/init/vendor.lge.hardware.bootproperty@1.0-service.rc
+framework/vendor.lge.hardware.bootproperty-V1.0-java.jar
+
+# LGE - Configstore
+framework/vendor.lge.hardware.configstore-V1.0-java.jar
+lib/vendor.lge.hardware.configstore@1.0.so
+lib64/vendor.lge.hardware.configstore@1.0.so
+vendor/bin/hw/vendor.lge.hardware.configstore@1.0-service
+vendor/etc/init/vendor.lge.hardware.configstore@1.0-service.rc
+
+# LGE - Platform
+framework/vendor.lge.hardware.platform-V1.0-java.jar
+framework/vendor.lge.hardware.platform-V1.1-java.jar
+lib/vendor.lge.hardware.platform@1.0.so
+lib/vendor.lge.hardware.platform@1.1.so
+lib64/vendor.lge.hardware.platform@1.0.so
+lib64/vendor.lge.hardware.platform@1.1.so
+vendor/bin/hw/vendor.lge.hardware.platform@1.1-service
+vendor/etc/init/vendor.lge.hardware.platform@1.1-service.rc
+
+# LGE - Property
+framework/vendor.lge.hardware.property-V1.0-java.jar
+framework/vendor.lge.hardware.property-V1.1-java.jar
+framework/vendor.lge.hardware.property-V1.2-java.jar
+vendor/etc/init/vendor.lge.hardware.property@1.2-service.rc
+vendor/bin/hw/vendor.lge.hardware.property@1.2-service
+vendor/lib/hw/vendor.lge.hardware.property@1.2-impl.so
+vendor/lib64/hw/vendor.lge.hardware.property@1.2-impl.so
+lib/vendor.lge.hardware.property@1.0.so
+lib/vendor.lge.hardware.property@1.1.so
+lib/vendor.lge.hardware.property@1.2.so
+lib64/vendor.lge.hardware.property@1.0.so
+lib64/vendor.lge.hardware.property@1.1.so
+lib64/vendor.lge.hardware.property@1.2.so
+
 # OIS firmware
 vendor/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin
 vendor/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin
