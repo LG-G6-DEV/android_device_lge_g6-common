@@ -727,11 +727,11 @@ vendor/etc/camera/smartcam/92_smartcam_basic_02.dat
 vendor/etc/camera/smartcam/93_smartcam_basic_03.dat
 vendor/etc/camera/smartcam/94_smartcam_basic_04.dat
 
-# Dolby Vision
--vendor/app/DolbyVisionService/DolbyVisionService.apk
+# Dolby Vision - from V30B
+-app/DolbyVisionService/DolbyVisionService.apk
 vendor/etc/dolby_vision_lgeg6_RevB_v011.cfg:vendor/etc/dolby_vision.cfg
-vendor/lib/libdovi.so
-vendor/lib64/libdovi.so
+lib/libdovi.so
+lib64/libdovi.so
 
 # OIS firmware
 vendor/etc/camera/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin
@@ -753,5 +753,7 @@ vendor/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin
 vendor/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin
 vendor/etc/camera/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin
 
-# Postprocessing
+# Postprocessing - from V30B
 vendor/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml
+vendor/lib/libhdr_tm.so
+vendor/lib64/libhdr_tm.so
